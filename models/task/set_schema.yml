@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: country_info
+    database: ASSIGNMENT_DATABASE
+    schema: STG
+    tables:
+      - name: country_codes
+
+  - name: item_info
+    database: ASSIGNMENT_DATABASE
+    schema: STG
+    tables:
+      - name: item_prices_stg
